@@ -26,6 +26,7 @@ Evidenziando il risultato nel log lo potete copiare e incollare direttamente nel
 ![tre](images/log_selection.png)
 
 ### Riferimenti
+Le specifiche di codifica dei file TAF dell'Agenzia delle Entrate sono disponibili qui
 https://wwwt.agenziaentrate.gov.it/servizi/Monografie/taf/tracciato_taf.pdf
 
 ### Ringraziamenti

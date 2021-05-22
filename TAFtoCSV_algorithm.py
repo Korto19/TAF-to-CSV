@@ -105,7 +105,7 @@ class TAFtoCSVAlgorithm(QgsProcessingAlgorithm):
         self.addParameter(
             QgsProcessingParameterFile(
                 self.INPUT,
-                'TAF file',
+                'Input TAF file',
                 behavior=QgsProcessingParameterFile.File, fileFilter='TAF Files (*.taf)'
             )
         )
@@ -124,7 +124,7 @@ class TAFtoCSVAlgorithm(QgsProcessingAlgorithm):
         self.addParameter(
             QgsProcessingParameterFileDestination(
                 self.OUTPUT,
-                self.tr('Output File'),
+                self.tr('Output CSV file'),
                 'TAF files (*.csv)'
             )
         )

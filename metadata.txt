@@ -24,11 +24,11 @@ hasProcessingProvider=yes
 changelog=20210522 ver 1.0
 
 # Tags are comma separated with spaces allowed
-tags=python, csv, table, TAF
+tags=python, csv, table, TAF, Agenzia Entrate, catasto
 
 homepage=https://github.com/Korto19/TAF-to-CSV#taf-to-csv
 category=Analysis
-icon=Korto19.png
+icon=ae.png
 # experimental flag
 experimental=False
 

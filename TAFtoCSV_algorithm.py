@@ -39,6 +39,7 @@ from qgis.core import (QgsVectorLayer,
                        QgsProcessingParameterFeatureSource,
                        QgsProcessingParameterFileDestination)
 import re
+import subprocess			 
 
 #assegnazione dei nomi delle colonne
 taf_col_name = ['TAF_ROW','Cod_Belf','Sez','Foglio','All','Fiduciale','Particella','Monografia',
@@ -186,7 +187,6 @@ class TAFtoCSVAlgorithm(QgsProcessingAlgorithm):
         open_taf.close()
         
         feedback.pushInfo("Elaborati " + str(count) + " records")
-
         copy2clip(csv)
-        
+
         return {self.OUTPUT: csv}

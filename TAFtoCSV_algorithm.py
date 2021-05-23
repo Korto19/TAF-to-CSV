@@ -130,6 +130,11 @@ class TAFtoCSVAlgorithm(QgsProcessingAlgorithm):
         )
 
     def processAlgorithm(self, parameters, context, feedback):
+
+        def copy2clip(txt):
+            cmd='echo '+ txt + '|clip'
+            return subprocess.check_call(cmd, shell=True)
+
         taf_file = self.parameterAsFile(parameters, self.INPUT, context)
         csv      = self.parameterAsFileOutput(parameters, self.OUTPUT, context)
         selez    = self.parameterAsMatrix(parameters, self.SELEZ, context)
@@ -181,5 +186,7 @@ class TAFtoCSVAlgorithm(QgsProcessingAlgorithm):
         open_taf.close()
         
         feedback.pushInfo("Elaborati " + str(count) + " records")
+
+        copy2clip(csv)
         
         return {self.OUTPUT: csv}

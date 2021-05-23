@@ -25,6 +25,9 @@ Evidenziando il risultato nel log lo potete copiare e incollare direttamente nel
 
 ![tre](images/log_selection.png)
 
+### Update 23.05.2021
+Aggiunto copia risultato su clipboard, ora, sempre dopo aver eseguito, il percorso è già disponibile nella clipboard: basta incollare direttamente nella finestra di caricamento file '**Data Source Manager - Testo Delimitato**' e cancellare manualmente l'ultimo spazio dal percorso.
+
 ### Riferimenti
 Le specifiche di codifica dei file TAF dell'Agenzia delle Entrate sono disponibili qui
 https://wwwt.agenziaentrate.gov.it/servizi/Monografie/taf/tracciato_taf.pdf

@@ -1,5 +1,5 @@
 # TAF-to-CSV
-Converte una Tabella attuale dei punti fiduciali (Taf) dell' Agenzia delle Entrate in un file csv aggiungendo le opportune intestazioni
+Converte una Tabella attuale dei punti fiduciali (Taf) dell'Agenzia delle Entrate in un file csv standard (encoding UTF8 e separatore la '`,`')  aggiungendo le opportune intestazioni
 
 ### Installazione
 

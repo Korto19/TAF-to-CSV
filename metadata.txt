@@ -6,7 +6,7 @@
 name=TAFtoCSV
 qgisMinimumVersion=3.16
 description=Converte file TAF in CSV
-version=1.1
+version=1.2
 author=Giulio Fattori
 email=giulio.fattori@tin.it
 
@@ -23,8 +23,9 @@ repository=https://github.com/Korto19/TAF-to-CSV
 hasProcessingProvider=yes
 # Uncomment the following line and add your changelog:
 changelog=20210522 - ver 1.0
-          20210524 - added copy to clipboard result
+          20210523 - added copy to clipboard result
                    - set correct plugin icon
+          20200524 - minor fixes
 
 # Tags are comma separated with spaces allowed
 tags=python, csv, table, TAF, Agenzia Entrate, catasto

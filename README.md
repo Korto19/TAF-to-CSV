@@ -32,5 +32,11 @@ Aggiunto copia risultato su clipboard, ora, sempre dopo aver eseguito, il percor
 Le specifiche di codifica dei file TAF dell'Agenzia delle Entrate sono disponibili qui
 https://wwwt.agenziaentrate.gov.it/servizi/Monografie/taf/tracciato_taf.pdf
 
+### Blogpost
+
+https://pigrecoinfinito.com/2021/05/17/file-csv-a-larghezza-fissa/
+
+https://pigrecoinfinito.com/2021/05/18/qgis-come-leggere-file-csv-fixed/
+
 ### Ringraziamenti
-[QGIS.org](https://www.qgis.org/it/site/) - [Totò Fiandaca](https://pigrecoinfinito.com/) 
+[QGIS.org](https://www.qgis.org/it/site/) - [Totò Fiandaca](https://pigrecoinfinito.com/) -  [Andrea Borruso](https://twitter.com/aborruso)

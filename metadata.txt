@@ -4,14 +4,14 @@
 
 [general]
 name=TAFtoCSV
-qgisMinimumVersion=3.0
+qgisMinimumVersion=3.16
 description=Converte file TAF in CSV
 version=1.01
 author=Giulio Fattori
 email=giulio.fattori@tin.it
 
-about=Converte una Tabella attuale dei punti fiduciali (Taf) dell' Agenzia delle Entrate in un file csv aggiungendo le opportune intestazioni con la possibilità della scelta dei campi da esportare
-      Convert a TAF table to csv file. Optionally select fields
+about=Converte una Tabella attuale dei punti fiduciali (Taf) dell' Agenzia delle Entrate Italiana in un file csv aggiungendo le opportune intestazioni con la possibilità della scelta dei campi da esportare
+      Converts a current table of fiducial points (Taf) of the Italian Revenue Agency into a standard csv file (encoding UTF8 and separator ',') by adding the appropriate headings with the possibility of choosing the fields to export
 
 tracker=https://github.com/Korto19/TAF-to-CSV/issues
 repository=https://github.com/Korto19/TAF-to-CSV
@@ -22,7 +22,7 @@ repository=https://github.com/Korto19/TAF-to-CSV
 hasProcessingProvider=yes
 # Uncomment the following line and add your changelog:
 changelog=20210522 - ver 1.0
-          20210523 - added copy to clipboard result
+          20210524 - added copy to clipboard result
                    - set correct icon
 
 # Tags are comma separated with spaces allowed

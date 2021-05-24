@@ -153,7 +153,7 @@ class TAFtoCSVAlgorithm(QgsProcessingAlgorithm):
 
         var_constr_split = var_constr_split[0:len(var_constr_split)-4] + '$'
   
-        open_taf = open(taf_file, 'r', errors = 'ignore')
+        open_taf = open(taf_file, 'r', encoding='iso-8859-1', errors = 'ignore')
         taf_lines = open_taf.readlines()
               
         # Compute the number of steps to display within the progress bar and

@@ -95,8 +95,9 @@ class TAFtoCSVAlgorithm(QgsProcessingAlgorithm):
         should provide a basic description about what the algorithm does and the
         parameters and outputs associated with it..
         """
-        return self.tr("Converte una Tabella attuale dei punti fiduciali (Taf) dell' Agenzia delle Entrate\
-                        in un file csv aggiungendo le opportune intestazioni\n\
+        return self.tr("Converte una Tabella attuale dei punti fiduciali (Taf) dell' Agenzia delle Entrate Italiana\
+                        in un file csv standard (codifica UTF8 e separatore ',') aggiungendo le opportune intestazioni\
+                        con la possibilità della scelta dei campi da esportare\n\
                         <mark style='color:blue'><strong>OPZIONI</strong></mark>\n\
                         <mark style='color:black'>Possibile selezione dei campi nell'apposito menu'"
                     )

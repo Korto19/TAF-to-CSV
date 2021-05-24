@@ -6,7 +6,7 @@
 name=TAFtoCSV
 qgisMinimumVersion=3.16
 description=Converte file TAF in CSV
-version=1.01
+version=1.1
 author=Giulio Fattori
 email=giulio.fattori@tin.it
 

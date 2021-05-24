@@ -10,7 +10,8 @@ version=1.01
 author=Giulio Fattori
 email=giulio.fattori@tin.it
 
-about=Converte una Tabella attuale dei punti fiduciali (Taf) dell' Agenzia delle Entrate Italiana in un file csv aggiungendo le opportune intestazioni con la possibilità della scelta dei campi da esportare
+about=Converte una Tabella attuale dei punti fiduciali (Taf) dell' Agenzia delle Entrate Italiana in un file csv standard (codifica UTF8 e separatore ',') aggiungendo le opportune intestazioni con la possibilità della scelta dei campi da esportare
+      
       Converts a current table of fiducial points (Taf) of the Italian Revenue Agency into a standard csv file (encoding UTF8 and separator ',') by adding the appropriate headings with the possibility of choosing the fields to export
 
 tracker=https://github.com/Korto19/TAF-to-CSV/issues
@@ -23,7 +24,7 @@ hasProcessingProvider=yes
 # Uncomment the following line and add your changelog:
 changelog=20210522 - ver 1.0
           20210524 - added copy to clipboard result
-                   - set correct icon
+                   - set correct plugin icon
 
 # Tags are comma separated with spaces allowed
 tags=python, csv, table, TAF, Agenzia Entrate, catasto
@@ -47,4 +48,3 @@ Category of the plugin: Raster, Vector, Database or Web
 
 # If the plugin can run on QGIS Server.
 server=False
-

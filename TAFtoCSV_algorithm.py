@@ -134,7 +134,7 @@ class TAFtoCSVAlgorithm(QgsProcessingAlgorithm):
     def processAlgorithm(self, parameters, context, feedback):
 
         def copy2clip(txt):
-            cmd='echo '+ txt + '|clip'
+            cmd='echo | set /p nul=' + txt + '| clip'
             return subprocess.check_call(cmd, shell=True)
 
         taf_file = self.parameterAsFile(parameters, self.INPUT, context)

@@ -31,7 +31,7 @@ __copyright__ = '(C) 2021 by Giulio Fattori'
 __revision__ = '$Format:%H$'
 
 from qgis.core import QgsProcessingProvider
-from .TAFtoCSV_algorithm import TAFtoCSVAlgorithm
+from .TAFtoCSVAlgorithm import TAFtoCSVAlgorithm
 
 #icona in processing (livello zero)
 import os

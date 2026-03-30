@@ -4,9 +4,12 @@
 
 [general]
 name=TAFtoCSV
+
 qgisMinimumVersion=3.16
+qgisMaximumVersion=4.99
+
 description=Converte file TAF in CSV
-version=1.2
+version=1.6
 author=Giulio Fattori
 email=giulio.fattori@tin.it
 
@@ -22,7 +25,10 @@ repository=https://github.com/Korto19/TAF-to-CSV
 
 hasProcessingProvider=yes
 # Uncomment the following line and add your changelog:
-changelog=20210522 - ver 1.0
+changelog=20260330 - Fixed shift character bug
+	    20260329 - Add table of point, error table and poin layer
+	    20260328 - QT6 update
+	    20210522 - ver 1.0
           20210523 - added copy to clipboard result
                    - set correct plugin icon
           20200524 - minor fixes

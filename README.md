@@ -18,12 +18,15 @@ E' possibile deselezionare tra i campi disponibili (19 selezionati di default) q
 
 ![tre](images/selezione_campi.png)
 
-Una volta selezionati i campi di interesse e avviato il plugin si otterrà un file temporaneo o il file csv definitivo.
-
-### Piccolo trick
-Evidenziando il risultato nel log lo potete copiare e incollare direttamente nella finestra di caricamento file '**Data Source Manager - Testo Delimitato**'.
+Una volta selezionati i campi di interesse e avviato il plugin si otterranno tre layer temporanei.
+Uno con dati tabellari, uno con gli errori tabellati ed ul layer di punti georeferenziato.
+Il layer di punti potrebbe dare risultati inaspettati a causa di diversi formati di coordinate presenti nel TAF.
+Sono tutti opzionali e possono essere salvati nel formato preferito.
 
 ![tre](images/log_selection.png)
+
+### Update 29.03.2026
+Aggiunta forma tabellare dei risultati e layer di rappresentazione.
 
 ### Update 23.05.2021
 Aggiunto copia risultato su clipboard, ora, sempre dopo aver eseguito, il percorso è già disponibile nella clipboard: basta incollare direttamente nella finestra di caricamento file '**Data Source Manager - Testo Delimitato**' e cancellare manualmente l'ultimo spazio dal percorso.

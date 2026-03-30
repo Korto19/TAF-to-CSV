@@ -23,7 +23,9 @@ Uno con dati tabellari, uno con gli errori tabellati ed ul layer di punti georef
 Il layer di punti potrebbe dare risultati inaspettati a causa di diversi formati di coordinate presenti nel TAF.
 Sono tutti opzionali e possono essere salvati nel formato preferito.
 
-![tre](images/log_selection.png)
+![quattro](images/log_selection.png)
+
+![cinque](images/results_layers.png)
 
 ### Update 29.03.2026
 Aggiunta forma tabellare dei risultati e layer di rappresentazione.

@@ -153,7 +153,7 @@ class TAFtoCSVAlgorithm(QgsProcessingAlgorithm):
 
         var_constr_split = var_constr_split[0:len(var_constr_split)-4] + '$'
   
-        open_taf = open(taf_file, 'r', errors = 'ignore')
+        open_taf = open(taf_file, 'r', encoding='iso-8859-1', errors = 'ignore', newline = '\r\n')
         taf_lines = open_taf.readlines()
               
         # Compute the number of steps to display within the progress bar and
@@ -172,14 +172,14 @@ class TAFtoCSVAlgorithm(QgsProcessingAlgorithm):
             for line in taf_lines:
                 
                 count += 1
-                taf_line_split = re.split(var_constr_split, line)
+                taf_line_split = re.split(var_constr_split, line.rstrip('\r\n'))
 
                 # Stop the algorithm if cancel button has been clicked
                 if feedback.isCanceled():
                     break
 
                 # Add a feature in the sink
-                line = str(count) + ','.join((col_x.strip()).replace(",","-") for col_x in taf_line_split) + '\n'
+                line = f'{count},' + ','.join('"{}"'.format((col_x.strip()).replace('"','""')) for col_x in taf_line_split if col_x) + '\n'
                 output_file.write(line)
 
                 # Update the progress bar
